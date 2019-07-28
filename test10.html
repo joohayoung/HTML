@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <th>사번</th>
+                <td><input type="text" id="number"></td><!--form-->
+                <th>이름</th>
+                <td><input type="text" id="name"></td><!--form-->
+            </tr>
+            <tr>
+                <th>나이</th>
+                <td><input type="text" id="age"></td><!--form-->
+                <th>성별</th>
+                <td><input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여
+                </td>
+            </tr>
+            <tr>
+                <th><lable for="grade">최종학력</lable></th>
+                <td colspan="3"><input type="text" id="grade"></td><!--form-->
+            </tr>
+            <tr>
+                <th>취미</th>
+                <td colspan="3">
+                    <input type="checkbox" value="Sports">Sports
+                    <input type="checkbox" value="Books">Books
+                    <input type="checkbox" value="Dance">Dance
+                </td>
+            </tr>
+            <tr>
+                <th>자기소개</th>
+                <td colspan="3"><input type="text" id="intro"></td><!--form-->
+            </tr>
+        </table>
+        <input type="submit" title="쿼리전송" value="쿼리전송">
+        <input type="submit" title="원래대로" value="원래대로">
+    </body>
+</html>
