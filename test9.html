@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>test9</title>
+        <style>
+                ul{
+                    list-style:none;
+                    line-height:2em;
+                    text-align:center;
+                    }
+            </style>
+    </head>
+    <body>
+        <h1>회원 가입</h1>
+        <form action="login.php" method="post">
+            <fieldset style="width:500px;">
+                <legend>로그인정보</legend>
+                <ul>
+                    <li>
+                        <label for="id">아이디</label>
+                        <input type="text" id="id">
+                    </li>
+                    <li>
+                        <label for="pw">비밀번호</label>
+                        <input type="password" id="pw">
+                    </li>
+                    <li>
+                        <label for="pwc">비밀번호 확인</label>
+                        <input type="password" id="pwc">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset style="width:500px;">
+                    <legend>개인 정보</legend>
+                    <ul>
+                        <li>
+                            <label for="name">이름</label>
+                            <input type="text" id="name">
+                        </li>
+                        <li>
+                            <label for="mail">메일 주소</label>
+                            <input type="email" id="mail">
+                        </li>
+                        <li>
+                            <label for="call">연락처</label>
+                            <input type="tel" id="call">
+                        </li>
+                        <li>
+                            <label for="blog">블로그/홈페이지</label>
+                            <input type="url" id="blog">
+                        </li>
+                    </ul>
+                </fieldset>
+                    <input type="submit" title="가입하기" value="가입하기" style="width:510px;">
+        </form>
+    </body>
+</html>
